@@ -1,3 +1,6 @@
+---
+
+````markdown
 # Tools Class
 
 A Python utility class to analyze and manipulate **frame data** (lists of integers representing frame numbers).  
@@ -7,20 +10,20 @@ This class provides methods for detecting missing frames, identifying gaps, and 
 
 ## Features
 
-- **`len`** → Returns the length of a list.
-- **`max`** → Returns the maximum value in a list.
-- **`find_missing_frames`** → Finds missing frames in the frame list.
-- **`find_frame_gaps`** → Finds gaps between consecutive frames.
-- **`find_longest_frame_gap`** → Finds the longest gap between frames.
-- **`missing_count`** → Returns the count of missing frames.
-- **`get_result`** → Returns a JSON string summarizing the analysis.
+- **`len`** → Returns the length of a list.  
+- **`max`** → Returns the maximum value in a list.  
+- **`find_missing_frames`** → Finds missing frames in the frame list.  
+- **`find_frame_gaps`** → Finds gaps between consecutive frames.  
+- **`find_longest_frame_gap`** → Finds the longest gap between frames.  
+- **`missing_count`** → Returns the count of missing frames.  
+- **`get_result`** → Returns a JSON string summarizing the analysis.  
 
 ---
 
 ## Installation
 
 Clone or copy the `Tools` class into your project.  
-No external dependencies are required (uses only Python standard library).
+No external dependencies are required (uses only the Python standard library).
 
 ---
 
@@ -51,7 +54,7 @@ For the input:
 frames = [1, 2, 3, 7, 8, 12]
 ```
 
-Output will be:
+The output will be:
 
 ```
 Length: 6
@@ -100,5 +103,3 @@ Returns a JSON string summarizing:
 * Gaps
 * Longest gap
 * Missing frame count
-
----
