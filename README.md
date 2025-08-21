@@ -1,4 +1,3 @@
-````
 # Tools Class
 
 A Python utility class to analyze and manipulate **frame data** (lists of integers representing frame numbers).  
@@ -41,8 +40,6 @@ print("Longest Gap:", tools.find_longest_frame_gap())
 print("Missing Count:", tools.missing_count())  
 print("Result JSON:", tools.get_result())
 ````
-
----
 
 ## Example Output
 
