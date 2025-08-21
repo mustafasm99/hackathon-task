@@ -1,6 +1,4 @@
----
-
-````markdown
+````
 # Tools Class
 
 A Python utility class to analyze and manipulate **frame data** (lists of integers representing frame numbers).  
